@@ -10,6 +10,7 @@ public class Palindrome {
             rev = rev * 10 + last_digit;
             n = n / 10;
         }
+        
         if (rev == orginal) {
             System.out.println("it is palindrome");
             return;
