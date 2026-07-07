@@ -1,7 +1,7 @@
 public class Euclidean {
     public static void main(String[] args) {
 
-        int a = 18;
+        int a = 9;
         int b = 12;
 
         while(b != 0) {
