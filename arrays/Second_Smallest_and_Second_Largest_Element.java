@@ -5,7 +5,7 @@ class Solution {
     public static void getElements(int[] arr, int n) {
 
         // Edge case: when the array has less than 2 elements
-        if (n == 0 || n == 1) {
+        if (n<2) {
             System.out.println(-1 + " " + -1);  // Print -1 for both second smallest and second largest
             return;
         }
