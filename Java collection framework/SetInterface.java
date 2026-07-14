@@ -35,10 +35,10 @@ public class SetInterface {
         
        //TreeSet will store in sorted order 
 
-        Set<Integer> set3 = new TreeSet<>();
-        set3.add(55);
-        set3.add(65);
-        set3.add(2);
-        System.out.println(set3 );
+        Set<Integer> treeSet = new TreeSet<>();
+        treeSet.add(55);
+        treeSet.add(65);
+        treeSet.add(2);
+        System.out.println(treeSet);
   }  
 }
