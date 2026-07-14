@@ -12,17 +12,17 @@ public class SetInterface {
 
     //          Fast operations (add, remove, search) → average O(1).
 
-    Set<Integer> st = new HashSet<>();
-    Set<Integer> st2 = new HashSet<>();
-      st.add(5);
-      st.add(5);
-      System.out.println(st); //only one 5 will print set will store unique num and not in order
-      st.add(6);
-      st2.add(6);
-      st2.add(7);
-      st.retainAll(st2);
-      System.out.println(st);
-      System.out.println(st.containsAll(st2)); //false
+    Set<Integer> setA = new HashSet<>();
+    Set<Integer> setB = new HashSet<>();
+    setA.add(5);
+    setA.add(5);
+    System.out.println(setA); // prints a single 5; sets store unique elements and HashSet order is not guaranteed
+    setA.add(6);
+    setB.add(6);
+    setB.add(7);
+    setA.retainAll(setB);
+    System.out.println(setA);
+    System.out.println(setA.containsAll(setB)); // false
       HashSet<String> set = new HashSet<>();
         set.add("Java");
         set.add("Python");
