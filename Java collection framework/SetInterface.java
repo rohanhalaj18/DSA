@@ -33,7 +33,7 @@ public class SetInterface {
         set.remove("Java");
         System.out.println(set); // [Python]
         
-       //TreeSet will store in sorted order 
+       //TreeSet will store in sorted orderopen 
 
         Set<Integer> treeSet = new TreeSet<>();
         treeSet.add(55);

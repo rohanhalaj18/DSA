@@ -22,4 +22,5 @@ public class Move_zero_and_one {
             System.out.println(arr[i]);
         }
     }
+    
 }
