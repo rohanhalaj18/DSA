@@ -52,6 +52,7 @@ This repository contains Java programs for practicing data structures, algorithm
 | --- | --- |
 | `ListInterface.java` | Usage of the `List` interface and its implementations. |
 | `SetInterface.java` | Usage of the `Set` interface and its implementations. |
+| `MapInterface.java` | Usage of the `Map` interface and its implementations. |
 
 ### Patterns
 
@@ -116,6 +117,7 @@ DSA/
 +-- Sorting/
 +-- .gitignore
 +-- README.md
++-- opencode.json
 ```
 
 ## Notes
