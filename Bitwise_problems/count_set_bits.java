@@ -10,5 +10,14 @@ public class count_set_bits {
             n >>= 1;
         }
         System.out.println(count);
+
+        //   Method 2: Brian Kernighan’s Algorithm
+        int n2 = 29;
+        int count2 = 0;
+        while (n2 > 0) {
+            n2 = n2 & (n2 - 1);
+            count2++;
+        }
+        System.out.println(count2);
     }
 }
